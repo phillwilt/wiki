@@ -1,0 +1,7 @@
+%h1 Dashboard
+
+%p Contributions
+
+- @user.pages do |page|
+  %br
+  = link_to user.email, page_path(page)
